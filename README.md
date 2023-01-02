@@ -18,7 +18,10 @@
 
 #### iOS
 
-1. `react-native link`
+1. add the following line to the `ios/Podfile`:
+	```
+	pod 'SajjadBlurOverlay', :path => '../node_modules/react-native-blur-overlay/ios/SajjadBlurOverlay.podspec'
+	```
 2. cd to ios folder and run `pod install`
 
 
